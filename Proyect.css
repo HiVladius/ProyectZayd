@@ -1,3 +1,12 @@
+@media (prefers-reduced-motion: no-preference) {
+    *{
+        scroll-behavior: smooth;
+    }
+}
+*{
+    scroll-behavior: smooth;
+}
+
 section{
     border-radius: 10%;
 }
@@ -7,6 +16,7 @@ section{
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.92'%3E%3Cpolygon fill='%233b49ed' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23574ddb' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%237252c9' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%238e56b7' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23AA5AA5' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 p{
@@ -14,6 +24,16 @@ p{
     text-align: center;
 }
 
-.head{
-    text-shadow: 0em;
+section, fieldset, legend{
+    border: none;
+    padding-bottom: 10;
+}
+
+.centrado{
+    margin: 5px auto;
+    display: block;
+}
+
+.second{
+
 }
